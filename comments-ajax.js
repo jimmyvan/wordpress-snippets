@@ -135,8 +135,6 @@ jQuery(document).ready(function($) {
 			wait = 15;
 	  }
 	}
-
-});
 function editcode() {
 	var a = "",
 	b = $("#comment").val(),
@@ -208,3 +206,5 @@ function grin(a) {
 		b.focus()
 	}
 }
+
+});

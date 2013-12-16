@@ -101,8 +101,7 @@ function ajax_comment(){
             <?php comment_text() ?>
         </div>
     </div>
-    <?php//edit end
-	die();
+    <?php die();
 
 }
 function ajax_comment_err($a) {
