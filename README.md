@@ -10,3 +10,7 @@ jquery ajax comments for wordpress
 支持pre code标签字符自动转换
 
 需要jquery 1.7+
+
+欢迎测试，有问题请反馈
+
+<a href="http://fatesinger.com/jquery-ajax-comments.html" target="_blank">反馈地址</a>   <a href="http://fatesinger.com/" target="_blank">作者主页</a>
