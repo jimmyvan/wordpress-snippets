@@ -1,10 +1,14 @@
 <?php
-
-wp_enqueue_script( 'base', true);
-wp_localize_script('base', 'O_Connor', array(       
+function ajax_comment_scripts() {
+	global $pagenow;
+    if(is_singular()){
+		wp_enqueue_script( 'base', get_template_directory_uri() . '/comments-ajax.js', array(), '1.00', true);
+		wp_localize_script('base', 'O_Connor', array(       
         "um_ajaxurl" => admin_url('admin-ajax.php')
-    ));
-
+		));
+	}
+}
+add_action('wp_enqueue_scripts', 'ajax_comment_scripts');
 add_action('wp_ajax_nopriv_ajax_comment', 'ajax_comment');
 add_action('wp_ajax_ajax_comment', 'ajax_comment');
 function ajax_comment(){
