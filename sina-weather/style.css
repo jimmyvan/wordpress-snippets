@@ -1,0 +1,9 @@
+.sina-weather-content{border:1px solid #D14836;font-size:12px;line-height:14px;position:relative}
+.sina-weather-city{background:#D14836;color:#FFFFFF;font-size:14px;font-weight:600;left:-1px;padding:5px 15px;position:absolute;top:5px;z-index:2;display:inline}
+.sina-weather-body{overflow:hidden;padding:45px 15px 15px}
+.sina-weather-body p{margin-bottom:10px}
+.sina-weather-tem{color:#000000;font-size:36px;font-weight:700;line-height:36px;padding-top:10px}
+.sina-weather-text{color:#666666;display:block;margin-top:10px}
+.stat-w{color:#555555;font-family:Microsoft Yahei;font-size:18px;font-style:italic;font-weight:600;line-height:10px}
+.entry-meta{position:relative;font-size:12px;font-size:12px;margin-top:-15px;padding:10px 0;text-transform:uppercase}
+.entry-meta a{color:#666}
